@@ -6,21 +6,15 @@ func main() {
 	var (
 		nama, nim, kelas, prodi string
 	)
-
-	// Meminta input dari pengguna
 	fmt.Print("Masukan Nama: ")
 	fmt.Scanln(&nama)
-
 	fmt.Print("Masukan Prodi: ")
 	fmt.Scanln(&prodi)
-
 	fmt.Print("Masukan Kelas: ")
 	fmt.Scanln(&kelas)
-
 	fmt.Print("Masukan NIM: ")
 	fmt.Scanln(&nim)
 
-	// Menampilkan biodata dalam format resume
 	fmt.Println("\n=== Resume Mahasiswa ===")
 	fmt.Println("Nama  : " + nama)
 	fmt.Println("NIM   : " + nim)
